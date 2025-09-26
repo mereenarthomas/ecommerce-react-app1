@@ -1,0 +1,35 @@
+.popular {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 30px;
+  width: 100%;
+}
+
+.popular h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.popular hr {
+  width: 120px;
+  height: 3px;
+  background: #252525;
+  border: none;
+  margin-bottom: 40px;
+}
+
+.popular-item {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  justify-items: center;
+  justify-content: center;
+  padding: 0;
+}
