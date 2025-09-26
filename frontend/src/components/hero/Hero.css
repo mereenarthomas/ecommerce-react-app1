@@ -1,0 +1,98 @@
+.hero {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(to bottom, #ffffff, #c7f5ff, #c7f5ff, #ffffff 90%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
+  padding: 0 100px;
+}
+
+.hero-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  line-height: 1.2;
+  margin-left: 40px;
+}
+
+.hero-left h2 {
+  color: #090909;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.hero-subtitle {
+  color: #ff328e;
+  font-size: 56px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.hero-tagline {
+  color: #171717;
+  font-size: 46px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.spark-icon {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.spark-icon img {
+  width: 70px;
+  height: auto;
+}
+
+.hero-latest-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  width: 220px;
+  height: 54px;
+  border-radius: 50px;
+  margin-top: 20px;
+  background: #ff328e;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.hero-latest-btn img {
+  width: 20px;
+  height: auto;
+  transition: transform 0.2s ease;
+}
+
+.hero-latest-btn:hover {
+  background-color: #e6297e;
+}
+
+.hero-latest-btn:hover img {
+  transform: translateX(3px);
+}
+
+.hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-right img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin-top: -40px;
+  margin-right: -60px;
+}
